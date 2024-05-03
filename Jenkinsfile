@@ -61,7 +61,7 @@ pipeline {
                     emailext (
                         subject: "Pipeline Status: SUCCESS",
                         body: "The Jenkins pipeline has completed successfully.",
-                        to: "salonivinodmehta@gmail.com",
+                        to: "art.random.email@gmail.com",
                         mimeType: 'text/html'
                     )
                 }
