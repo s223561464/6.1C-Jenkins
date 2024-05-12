@@ -18,7 +18,7 @@ pipeline {
         stage('Unit and Integration Tests') {
             steps {
                 echo "Running unit tests"
-                sleep(time: 10, unit: 'SECONDS')
+                sleep(time: 10, unit: 'Seconds')
                 echo "Running integration tests"
             }
         }
