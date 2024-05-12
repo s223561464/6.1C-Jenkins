@@ -43,13 +43,6 @@ pipeline {
                 // Add deployment to staging step here
             }
         }
-              stage('Complete Staging') {
-            steps {
-                echo "Completed the application to a staging server in AWS Elastic Beanstalk"
-                // Add deployment to staging step here
-            }
-        }
- 
         stage('Integration Tests on Staging') {
             steps {
                 script {
